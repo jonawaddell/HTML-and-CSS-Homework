@@ -1,0 +1,44 @@
+<div id=heading>
+<div id="header">
+<h2>Latitude</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li>Visualization</li>
+<li>Comparison</li>
+<li>Data</li>
+</ul>
+</div>
+</div>
+
+
+
+
+
+
+	#header, #menu, footer{
+		color: white;
+		background-color: gray
+	}
+
+	#titles {
+		text-align:left;
+	}
+
+	li {
+		text-align:left;
+	}		
+
+	#menu ul{
+		padding:0;
+		display: inline;
+		margin: 5px;
+	}
+
+	#menu ul li{
+		display: inline;
+		margin: 5px;
+	}
+
+#summay, #visualizations

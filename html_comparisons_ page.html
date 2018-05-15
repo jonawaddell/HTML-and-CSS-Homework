@@ -1,0 +1,104 @@
+<DOCTYPE html>
+<html>
+
+<head>
+<style>
+	body {
+		background-color: #f2f2f2
+	}
+	div {
+		background-color: #ffffff
+	}
+	h1 {
+		color: #ffffff;
+		background: #009999;
+		text-align: center
+	}
+	h2 {
+		color: #009999;
+		padding: 0;
+	}
+	ol {
+		color: white;
+		background-color: #ffffff;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	li {
+		float: left;
+		display: inline;
+	}
+	li a {
+		display:block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color:#009999;
+		color: white;
+		margin: 0;
+		padding: 0;
+		display:block;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}	
+	#pages {
+	float: right;
+	}
+	.column {
+	float: left;
+	width: 33.33%;
+	padding : 5px;
+	}
+	.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+</style>
+</head>
+
+<body>
+<div class="menu_box">
+		<ol id="menu">
+			<li><h1><a href="C:\Users\jwaddell\Desktop\HW\WEB\html_landing_page.html">Latitude</a></h1></li>
+			<li id="pages"><a href="C:\Users\jwaddell\Desktop\HW\WEB\html_visualization_page.html">Visualization</a></li>
+			<li id="pages"><a href="C:\Users\jwaddell\Desktop\HW\WEB\html_comparisons_ page.html">Comparison</a></li>
+			<li id="pages"><a href="C:\Users\jwaddell\Desktop\HW\WEB\html_data_page.html">Data</a></li>
+		</ol>
+</div>
+
+<div class = "comparison"; >
+	<h2>Comaprison: Latitude vs X</h2>
+	<hr>
+	<p>Clisk any plot to get an in-depth analysis</p>
+	<div class="row">
+		<div class="column">
+			<h2>vs. Max Temperature</h2>
+			<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_9_0.png" style= "width:200px;height:200px">
+		</div>
+		<div class="column">
+		<h2>vs. Humidity</h2>
+		<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_11_0.png" style= "width:200px;height:200px">
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<h2>vs. Cloudiness</h2>
+			<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_13_0.png" style= "width:200px;height:200px">
+		</div>
+		<div class="column">
+			<h2>vs. Wind Speed</h2>
+			<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_15_0.png" style= "width:200px;height:200px">
+		</div>
+	</div>
+</div>
+</body>
+
+<footer>@Copyright Coding Bootcamp 2017</footer>
+</html>

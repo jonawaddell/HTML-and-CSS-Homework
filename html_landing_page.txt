@@ -1,0 +1,35 @@
+<DOCTYPE html>
+<html>
+<h2>Latitude</h2>
+
+<h3>Visualization</h3>
+<h3>Comparison</h3>
+<h3>Data</h3>
+
+<body>
+<h2>Summary: Latitude vs. X</h2>
+
+<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_9_0.png" style= "width:200px;height:200px">
+
+<p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities
+</p>
+<br>
+<p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included:
+tempeerature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part
+of the analysis, as well as expectations and descriptions of any trends and correlations witnessed
+</p>
+</body>
+
+<body>
+<h2>Visualization</h2>
+<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_9_0.png" style= "width:200px;height:200px">
+<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_11_0.png" style= "width:200px;height:200px">
+<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_13_0.png" style= "width:200px;height:200px">
+<img src="C:\Users\jwaddell\Desktop\HW\WEB\img_output_15_0.png" style= "width:200px;height:200px">
+
+</body>
+
+
+<footer>@Copyright Coding Bootcamp 2017</footer>
+</html>
